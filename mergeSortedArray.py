@@ -12,6 +12,7 @@ class Solution:
         Method 2: TimeCompexity: O(M+N)
         Space Compexity: O(1)
         """
+        # take 3 pointers
         p1 = len(nums1)-1
         p2 = m-1
         p3 = n-1
